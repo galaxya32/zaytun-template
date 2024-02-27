@@ -1,0 +1,30 @@
+.product {
+    display: block;
+    width: 1473px;
+    margin: 0 auto;
+    
+}
+.product .box .product_in {
+    width: 1473px;
+    height: 285px;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+.product .box .product_in .product_box {
+    background-color: black;
+    border-radius: 20px;
+    height: 300px;
+}
+.product .box .product_in .product_box .product_img {
+    width: 485px;
+    height: 250px;
+}
+.product .box .product_in .product_box p {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
