@@ -24,18 +24,13 @@ ul{
 }
 
 .container{
-    width: 144rem;
+    width: 95%;
     margin: 0 auto;
 }
 
 /* HEADER START */
-header{
-    width: 100vw;
-}
 
 header .container{
-    width: 144rem;
-    margin: 0 auto;
     padding: 1.6rem 0;
 }
 
