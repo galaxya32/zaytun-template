@@ -23,6 +23,11 @@ ul{
     list-style: none;
 }
 
+.container{
+    width: 144rem;
+    margin: 0 auto;
+}
+
 /* HEADER START */
 header{
     width: 100vw;
@@ -31,7 +36,7 @@ header{
 header .container{
     width: 144rem;
     margin: 0 auto;
-    padding: 1.6rem;
+    padding: 1.6rem 0;
 }
 
 header .container .header{
@@ -208,6 +213,82 @@ header .container .header{
 
 /* HEADER END */
 
+
+/* MAIN START */
+.product-section{
+    width: 100vw;
+}
+
+.product-section .page-breadcrumb .breadcrumb{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.product-section .page-breadcrumb .breadcrumb .breadcrumb-item a{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    color: #FFAE00;
+}
+
+.fa-angle-right{
+    color: #DAE0E5;
+}
+
+.product-section-title{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.71rem;   
+    padding: 2rem 0; 
+}
+
+.rating-info{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: .2rem solid #DAE0E5;
+}
+
+.rating-info .rating,
+.rating-info .info{
+    display: flex;
+    align-items: center;
+}
+
+.rating-info .rating{
+    gap: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.rating-info .rating .stars i{
+    color: #F2994A;
+}
+
+.rating-info .rating span{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #8E969E;
+}
+
+.rating-info .info{
+    margin-left: auto;
+    gap: 2rem;
+}
+
+.rating-info .info .heart-info{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #FFAE00;
+    cursor: pointer;
+    gap: .7rem;
+}
+
+/* MAIN END */
 
 
 /* PRODUCT-CARD STYLE START*/
